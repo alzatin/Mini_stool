@@ -40,37 +40,39 @@
         },
         {
           "name": "Part Padding",
-          "ioValue": 5
+          "ioValue": 5,
+          "currentEquation": "5"
         },
         {
           "name": "Orientations",
-          "ioValue": 12
+          "ioValue": 12,
+          "currentEquation": "12"
         }
       ],
       "placements": [
         [
           {
-            "id": 0,
-            "rotate": 90,
-            "translate": {
-              "x": 10.203387,
-              "y": 10.203387
-            }
-          },
-          {
             "id": 1,
             "rotate": 270,
             "translate": {
-              "x": 9.699999993661171,
-              "y": 28.606773999999994
+              "x": 11.700000000000003,
+              "y": 10.200000000000001
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 60,
+            "translate": {
+              "x": 26.25834335,
+              "y": 30.413085139092793
             }
           },
           {
             "id": 2,
             "rotate": 180,
             "translate": {
-              "x": 9.699999999999998,
-              "y": 27.4581806
+              "x": 22.846950000000003,
+              "y": 23.488571899999997
             }
           }
         ]
