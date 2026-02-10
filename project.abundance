@@ -20,8 +20,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.6859027205276175,
-      "y": 0.7250755287009063,
+      "x": 0.6883759274525969,
+      "y": 0.7280966767371602,
       "uniqueID": 1744404018630,
       "name": "Cut Layout",
       "ioValues": [
@@ -40,7 +40,8 @@
         },
         {
           "name": "Part Padding",
-          "ioValue": 5
+          "ioValue": 8,
+          "currentEquation": "8"
         },
         {
           "name": "Orientations",
@@ -51,27 +52,27 @@
       "placements": [
         [
           {
-            "id": 0,
-            "rotate": 120,
-            "translate": {
-              "x": 12.186914874497099,
-              "y": 12.186914874497097
-            }
-          },
-          {
             "id": 1,
-            "rotate": 60,
+            "rotate": 100,
             "translate": {
-              "x": 28.338197428439088,
-              "y": 28.707352749147372
+              "x": 15,
+              "y": 13.2
             }
           },
           {
             "id": 2,
+            "rotate": 60,
+            "translate": {
+              "x": 36.26285227537132,
+              "y": 16.05138355620475
+            }
+          },
+          {
+            "id": 0,
             "rotate": 330,
             "translate": {
-              "x": 26.104018609671193,
-              "y": 30.002053756961786
+              "x": 57,
+              "y": 13.690945595083743
             }
           }
         ]
@@ -79,8 +80,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5119538334707338,
-      "y": 0.6042296072507553,
+      "x": 0.5185490519373455,
+      "y": 0.5498489425981873,
       "uniqueID": 1744404077436,
       "ioValues": [
         {
@@ -1135,9 +1136,84 @@
       ],
       "allConnectors": [],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.8145094806265457,
+      "y": 0.8308157099697885,
+      "uniqueID": "id-160",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "mini-stool-",
+          "currentEquation": "mini-stool-"
+        }
+      ],
+      "partName": "mini-stool-",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8928276999175598,
+      "y": 0.6616314199395771,
+      "uniqueID": "id-168",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Cut-layout",
+          "currentEquation": "Cut-layout"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Cut-layout"
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": 1744404018630,
+      "ap2ID": "id-160"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": 1744404018630,
+      "ap2ID": "id-168"
+    },
     {
       "ap2Name": "number or geometry",
       "ap1ID": 1744404077436,
