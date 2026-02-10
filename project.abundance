@@ -35,12 +35,12 @@
         },
         {
           "name": "Sheet Height",
-          "ioValue": 48
+          "ioValue": 48,
+          "currentEquation": "48"
         },
         {
           "name": "Part Padding",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 5
         },
         {
           "name": "Orientations",
@@ -50,35 +50,27 @@
       "placements": [
         [
           {
-            "id": 2,
+            "id": 0,
             "rotate": 90,
             "translate": {
-              "x": 7.8265725,
-              "y": 4.825000000000001
-            }
-          },
-          {
-            "id": 0,
-            "rotate": 120,
-            "translate": {
-              "x": 9.805533046086603,
-              "y": 18.795608851785495
-            }
-          },
-          {
-            "id": 3,
-            "rotate": 180,
-            "translate": {
-              "x": 7.8249999999999975,
-              "y": 37.926141855318214
+              "x": 10.203387,
+              "y": 10.203387
             }
           },
           {
             "id": 1,
-            "rotate": 90,
+            "rotate": 270,
             "translate": {
-              "x": 13.552142892228744,
-              "y": 31.449087999999996
+              "x": 9.699999993661171,
+              "y": 28.606773999999994
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 180,
+            "translate": {
+              "x": 9.699999999999998,
+              "y": 27.4581806
             }
           }
         ]
@@ -86,8 +78,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.5103050288540808,
-      "y": 0.38368580060422963,
+      "x": 0.5119538334707338,
+      "y": 0.6042296072507553,
       "uniqueID": 1744404077436,
       "ioValues": [
         {
@@ -102,8 +94,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.15251442704039572,
-      "y": 0.36253776435045315,
+      "x": 0.15004122011541632,
+      "y": 0.5468277945619335,
       "uniqueID": 1744381243719,
       "name": "stool top",
       "ioValues": [
@@ -132,8 +124,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.32519616390584133,
-          "y": 0.5240963855421688,
+          "x": 0.3528441879637263,
+          "y": 0.24471299093655588,
           "uniqueID": 1744404093344,
           "ioValues": [
             {
@@ -1117,6 +1109,30 @@
           "ap2ID": 1744382116287
         }
       ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.3396537510305029,
+      "y": 0.35347432024169184,
+      "uniqueID": "id-155",
+      "name": "Screws",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-157",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
       "fileTypeVersion": 1
     }
   ],
