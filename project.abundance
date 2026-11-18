@@ -14,8 +14,8 @@
   "allAtoms": [
     {
       "atomType": "Output",
-      "x": 1,
-      "y": 0.5,
+      "x": 0.9853,
+      "y": 0.5235,
       "uniqueID": 1744381235338,
       "ioValues": [
         {
