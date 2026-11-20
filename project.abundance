@@ -949,8 +949,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.6938,
-      "y": 0.2727,
+      "x": 0.7145,
+      "y": 0.3826,
       "uniqueID": 1744404018630,
       "name": "Cut Layout",
       "ioValues": [
@@ -1039,9 +1039,9 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.7924,
-      "y": 0.7652,
-      "uniqueID": "id-1125",
+      "x": 0.7526,
+      "y": 0.75,
+      "uniqueID": "id-1127",
       "ioValues": [
         {
           "name": "geometry",
@@ -1070,8 +1070,7 @@
         }
       ],
       "partName": "Mini_stool",
-      "sortDirection": "Left",
-      "gcodeOrigin": "Design origin"
+      "sortDirection": "Left"
     },
     {
       "atomType": "Molecule",
@@ -2124,8 +2123,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8253,
-      "y": 0.1477,
+      "x": 0.7979,
+      "y": 0.279,
       "uniqueID": "id-168",
       "ioValues": [
         {
@@ -2271,7 +2270,7 @@
     {
       "ap2Name": "geometry",
       "ap1ID": 1744404018630,
-      "ap2ID": "id-1125"
+      "ap2ID": "id-1127"
     },
     {
       "ap2Name": "geometry",
