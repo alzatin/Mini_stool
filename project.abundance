@@ -108,8 +108,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.055,
-          "y": 0.3333,
+          "x": 0.0254,
+          "y": 0.1538,
           "uniqueID": 1744404114131,
           "name": "width",
           "type": "number",
@@ -117,8 +117,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.055,
-          "y": 0.5333,
+          "x": 0.0254,
+          "y": 0.2462,
           "uniqueID": 1744404133354,
           "name": "ply thick",
           "type": "number",
@@ -346,8 +346,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.055,
-              "y": 0.3333,
+              "x": 0.0254,
+              "y": 0.1538,
               "uniqueID": 1744381432297,
               "name": "ply thick",
               "type": "number",
@@ -531,8 +531,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.055,
-              "y": 0.5333,
+              "x": 0.0254,
+              "y": 0.2462,
               "uniqueID": 1744381917934,
               "name": "height",
               "type": "number",
@@ -813,8 +813,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.055,
-          "y": 0.3333,
+          "x": 0.0254,
+          "y": 0.1538,
           "uniqueID": 1744403707539,
           "name": "ply thick",
           "type": "number",
@@ -822,8 +822,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.055,
-          "y": 0.5333,
+          "x": 0.0254,
+          "y": 0.2462,
           "uniqueID": 1744403784436,
           "name": "height",
           "type": "number",
@@ -1447,8 +1447,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.055,
-                  "y": 0.3333,
+                  "x": 0.0254,
+                  "y": 0.1538,
                   "uniqueID": "id-347",
                   "name": "Geometry",
                   "type": "geometry",
@@ -1456,8 +1456,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.055,
-                  "y": 0.5333,
+                  "x": 0.0254,
+                  "y": 0.2462,
                   "uniqueID": "id-348",
                   "name": "Scale Factor",
                   "type": "number",
@@ -1766,8 +1766,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.055,
-              "y": 0.3333,
+              "x": 0.0254,
+              "y": 0.1538,
               "uniqueID": "id-428",
               "name": "Number",
               "type": "number",
@@ -1775,8 +1775,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.055,
-              "y": 0.5333,
+              "x": 0.0254,
+              "y": 0.2462,
               "uniqueID": "id-429",
               "name": "Geometry",
               "type": "geometry",
@@ -1814,8 +1814,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.055,
-              "y": 0.7333,
+              "x": 0.0254,
+              "y": 0.3385,
               "uniqueID": "id-431",
               "name": "distX",
               "type": "number",
@@ -1823,8 +1823,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.055,
-              "y": 0.9333,
+              "x": 0.0254,
+              "y": 0.4308,
               "uniqueID": "id-432",
               "name": "distY",
               "type": "number",
@@ -1832,8 +1832,8 @@
             },
             {
               "atomType": "Input",
-              "x": 0.055,
-              "y": 0.95,
+              "x": 0.0254,
+              "y": 0.5231,
               "uniqueID": "id-433",
               "name": "distZ",
               "type": "number",
@@ -1997,8 +1997,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.055,
-          "y": 0.3333,
+          "x": 0.0254,
+          "y": 0.1538,
           "uniqueID": "id-480",
           "name": "height",
           "type": "number",
@@ -2157,8 +2157,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.055,
-      "y": 0.3333,
+      "x": 0.0254,
+      "y": 0.1538,
       "uniqueID": "id-477",
       "name": "height",
       "options": []
@@ -2226,11 +2226,11 @@
       ],
       "orientations": [
         {
-          "downwardFaceIndex": 2,
-          "faceCount": 36,
+          "downwardFaceIndex": 6,
+          "faceCount": 47,
           "faceNormal": [
             0,
-            0,
+            1.11022302462516e-16,
             -1
           ]
         },
